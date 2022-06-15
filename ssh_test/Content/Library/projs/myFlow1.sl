@@ -8,7 +8,9 @@ flow:
             - min: '1'
             - max: '10'
         navigate:
-          - success: SUCCESS
+          - success:
+              next_step: SUCCESS
+              ROI: '10'
           - failure: on_failure
   results:
     - FAILURE
