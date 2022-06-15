@@ -10,7 +10,7 @@ flow:
         navigate:
           - success:
               next_step: SUCCESS
-              ROI: '12'
+              ROI: '14'
           - failure: on_failure
   results:
     - FAILURE
@@ -28,5 +28,5 @@ extensions:
     results:
       SUCCESS:
         81ed255c-5bf7-5229-965d-f92e5332d48d:
-          x: 560
+          x: 600
           'y': 120
