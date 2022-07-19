@@ -5,7 +5,7 @@ flow:
     - Generate_Random_Number:
         do_external:
           06fe8531-868b-4e79-aa7a-13a5e30a66ec:
-            - min: '5'
+            - min: '1'
             - max: '10'
         navigate:
           - success:
