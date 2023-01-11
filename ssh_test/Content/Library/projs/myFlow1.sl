@@ -19,7 +19,7 @@ extensions:
   graph:
     steps:
       Generate_Random_Number:
-        x: 200
+        x: 280
         'y': 120
         navigate:
           d3026dd4-a469-485d-2c99-8cbb1e3d01fc:
