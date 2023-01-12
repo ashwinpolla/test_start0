@@ -2,7 +2,11 @@ namespace: projs
 flow:
   name: myFlow2
   inputs:
-    - in_p: value
+    - in_p:
+        prompt:
+          type: single-choice
+          options: in_p value
+        default: value
   workflow:
     - Generate_Random_Number:
         do_external:
