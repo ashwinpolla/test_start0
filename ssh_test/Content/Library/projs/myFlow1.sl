@@ -1,12 +1,15 @@
 namespace: projs
 flow:
   name: myFlow1
+  inputs:
+    - in_p: value
   workflow:
     - Generate_Random_Number:
         do_external:
           06fe8531-868b-4e79-aa7a-13a5e30a66ec:
             - min: '2'
             - max: '10'
+            - input_1: '${"in_p"}'
         navigate:
           - success:
               next_step: SUCCESS
