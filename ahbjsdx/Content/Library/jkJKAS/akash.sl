@@ -20,7 +20,7 @@ extensions:
     steps:
       random_number_generator:
         x: 480
-        'y': 240
+        'y': 120
         navigate:
           d347acb9-98cf-a29c-e87d-e63216116c33:
             targetId: f31c240d-479f-1f54-f0fd-16319f9ee027
